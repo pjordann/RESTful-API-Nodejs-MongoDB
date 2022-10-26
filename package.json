@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/STW2022/backend.git"
+  },
+  "author": "yo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/STW2022/backend/issues"
+  },
+  "homepage": "https://github.com/STW2022/backend#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "google-auth-library": "^8.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-simple": "^0.5.6",
+    "mathjs": "^10.4.3",
+    "mongoose": "^6.2.9",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "passport-google-verify-token": "^2.2.0",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0",
+    "twit": "^2.2.11",
+    "twitter-api-v2": "^1.11.3",
+    "winston": "^3.7.2"
+  }
+}
