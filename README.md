@@ -3,7 +3,11 @@ NodeJS + Express API for our STW project. It uses MongoDB as database.
 
 # Description
 This backend service connects to the Spanish Government official website in order to obtain information about fuel pricing. After this data is fetched, it is processed and saved in a MongoDb databse instance. This process runs periodically, every 24 hours. Also, there is a twitter bot that compares fuel prices and publishes 1 tweet a day with the cheapest fuel and where it is sold.  
-For this, we have used NodeJS, Express framework, MongoDB database and numerous libraries.
+
+Technologies: 
+- NodeJS
+- Express framework
+- MongoDB database
 
 # Pre-requisites
 
